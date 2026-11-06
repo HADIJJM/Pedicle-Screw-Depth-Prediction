@@ -89,3 +89,8 @@ outputs/*
 .env
 .env.*
 !.env.example
+
+# Member 2 - Preprocessing manifests
+!outputs/m2_preprocessing/
+!outputs/m2_preprocessing/*.csv
+!outputs/m2_preprocessing/*.json

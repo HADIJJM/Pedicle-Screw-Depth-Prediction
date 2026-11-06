@@ -5,3 +5,6 @@ pandas>=2.0,<3
 
 # Future modules (3D segmentation, training, visualization) will add their
 # own dependencies when implemented; no GPU framework is required for Module 1.
+
+# Member 2 - Medical image preprocessing
+scipy>=1.11,<2

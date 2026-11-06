@@ -1,0 +1,8 @@
+{
+  "spacing_xyz_mm": [2.0, 2.0, 2.0],
+  "hu_min": -300.0,
+  "hu_max": 1500.0,
+  "center_stride": 3,
+  "centers_per_class": 512,
+  "center_seed": 42
+}
