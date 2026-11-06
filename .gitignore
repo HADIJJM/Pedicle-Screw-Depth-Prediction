@@ -1,17 +1,91 @@
+
+# ==========================================
+# Python
+# ==========================================
 __pycache__/
 *.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ==========================================
+# Virtual environments
+# ==========================================
 .venv/
-.env
-.ipynb_checkpoints/
+venv/
+env/
+ENV/
+
+# ==========================================
+# IDE and operating system
+# ==========================================
+.vscode/
+.idea/
 .DS_Store
-/data/raw/**
-!/data/raw/.gitkeep
-/data/processed/**
-!/data/processed/.gitkeep
-/outputs/**
-!/outputs/.gitkeep
+Thumbs.db
+
+# ==========================================
+# Raw medical datasets
+# Do not upload CT images or segmentation masks
+# ==========================================
+data/raw/
+data/interim/
+data/processed/
+
 *.nii
 *.nii.gz
-*.pth
+*.nrrd
+*.mha
+*.mhd
+*.dcm
+
+# ==========================================
+# Large models and training checkpoints
+# ==========================================
 *.pt
+*.pth
 *.ckpt
+*.h5
+*.hdf5
+*.onnx
+
+# ==========================================
+# Temporary files and logs
+# ==========================================
+*.tmp
+*.log
+*.bak
+*.swp
+*.swo
+~$*
+
+# ==========================================
+# Outputs
+# Ignore all outputs by default
+# ==========================================
+outputs/*
+
+# ==========================================
+# Module 1 - Approved deliverables
+# Keep CSV and JSON reports
+# ==========================================
+!outputs/m1_inspection/
+!outputs/m1_inspection/*.csv
+!outputs/m1_inspection/*.json
+
+!outputs/m1_validation/
+!outputs/m1_validation/*.csv
+!outputs/m1_validation/*.json
+
+!outputs/m1_splits/
+!outputs/m1_splits/*.csv
+!outputs/m1_splits/*.json
+
+# ==========================================
+# Local configuration and secrets
+# ==========================================
+.env
+.env.*
+!.env.example

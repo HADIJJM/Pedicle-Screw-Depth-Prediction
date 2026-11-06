@@ -1,0 +1,13 @@
+{
+  "total_scans": 214,
+  "expected_scans": 214,
+  "passed": 179,
+  "warnings": 35,
+  "failed": 0,
+  "remaining": 0,
+  "status_counts": {
+    "warning": 35,
+    "passed": 179
+  },
+  "note": "Technical dataset validation only; passing does not imply clinical safety."
+}

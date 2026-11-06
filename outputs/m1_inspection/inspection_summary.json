@@ -1,0 +1,20 @@
+{
+  "scans": 214,
+  "unique_patient_ids": 214,
+  "scans_per_split": {
+    "validation": 80,
+    "test": 73,
+    "training": 61
+  },
+  "inspection_status": {
+    "inspected": 214
+  },
+  "coverage_type": {
+    "full": 132,
+    "partial": 47,
+    "none": 35
+  },
+  "patients_with_multiple_scans": {},
+  "patient_ids_across_splits": [],
+  "note": "Inventory only; spatial alignment and clinical validity are NOT validated."
+}

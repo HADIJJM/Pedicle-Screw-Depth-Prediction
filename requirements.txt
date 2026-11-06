@@ -1,1 +1,7 @@
-# Add pinned dependencies after selecting the implementation stack.
+# Module 1 — dataset inspection and validation (Python 3.10+)
+nibabel>=5.1,<6
+numpy>=1.24,<3
+pandas>=2.0,<3
+
+# Future modules (3D segmentation, training, visualization) will add their
+# own dependencies when implemented; no GPU framework is required for Module 1.
