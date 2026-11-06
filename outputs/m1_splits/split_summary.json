@@ -1,0 +1,25 @@
+{
+  "source": "Official VerSe2020 splits (not randomly reshuffled)",
+  "total_cases": 214,
+  "original_split_counts": {
+    "training": 61,
+    "validation": 80,
+    "test": 73
+  },
+  "eligible_split_counts": {
+    "training": 50,
+    "validation": 69,
+    "test": 60
+  },
+  "excluded_split_counts": {
+    "test": 13,
+    "training": 11,
+    "validation": 11
+  },
+  "excluded_total": 35,
+  "exclusion_reasons": {
+    "no_target_vertebrae": 35
+  },
+  "patient_overlap": 0,
+  "note": "Eligible means technically validated and contains >=1 target vertebra (T10-L5); not clinical validation."
+}
