@@ -1,0 +1,3 @@
+# Keep the existing CUDA-compatible torch installation when available.
+torch>=2.4,<3
+monai>=1.4,<2
