@@ -1,0 +1,11 @@
+{
+  "run_name": "baseline_96",
+  "status": "completed",
+  "finished_utc": "2026-11-12T09:45:38Z",
+  "epochs_done": 100,
+  "best_epoch": 54,
+  "best_val_mean_dice": 0.6460362259069485,
+  "preprocess_fingerprint": "72e39f20b4b0347c",
+  "best_checkpoint": "/content/drive/MyDrive/m4_runs/baseline_96/best.pt",
+  "note": "Validation Dice only (val split, stitched per case). Test split untouched."
+}

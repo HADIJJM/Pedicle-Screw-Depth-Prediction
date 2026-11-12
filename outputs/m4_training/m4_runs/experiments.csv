@@ -1,0 +1,3 @@
+run_name,status,started_utc,finished_utc,device,patch_size_zyx,batch_size,learning_rate,epochs_planned,epochs_done,best_epoch,best_val_mean_dice,preprocess_fingerprint,git_commit
+trial_1794470039,completed,2026-11-12T07:54:14Z,2026-11-12T07:54:53Z,cuda,96x96x96,1,0.001,2,2,1,0.00573533701086024,72e39f20b4b0347c,d4eea18
+baseline_96,completed,2026-11-12T07:58:52Z,2026-11-12T09:45:38Z,cuda,96x96x96,1,0.001,100,100,54,0.6460362259069485,72e39f20b4b0347c,d4eea18

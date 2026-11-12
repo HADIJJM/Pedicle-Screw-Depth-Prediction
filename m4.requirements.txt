@@ -1,0 +1,12 @@
+# Module 1 — dataset inspection and validation (Python 3.10+)
+nibabel>=5.1,<6
+numpy>=1.24,<3
+pandas>=2.0,<3
+
+# Future modules (3D segmentation, training, visualization) will add their
+# own dependencies when implemented; no GPU framework is required for Module 1.
+
+# Member 2 - Medical image preprocessing
+scipy>=1.11,<2
+# Member 4 - training config files
+pyyaml>=6,<7

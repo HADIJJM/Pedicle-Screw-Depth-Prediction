@@ -1,0 +1,23 @@
+What the results say:
+
+Training was clean and quick. Each normal epoch took about 19 seconds and each validation about 240 seconds, so the whole run was roughly 2 hours.
+
+Validation Dice plateaued early. It climbed to about 0.60 by epoch 30 to 40, then wandered between 0.58 and 0.65 for the rest. The best round (epoch 54, 0.646) is partly luck, and the last round scored 0.619. Expect Member 6’s test Dice to be nearer 0.60 to 0.62 than 0.65.
+More epochs won’t help. The curve is flat, so training longer is not the fix.
+
+Per level (validation mean Dice at the best epoch)
+Level	T10	T11	T12	L1	L2	L3	L4	L5
+Dice	0.59	0.67	0.66	0.74	0.68	0.64	0.64	0.56
+
+The ends of the range (T10 and L5) are weakest.
+
+The important part: failures, not general weakness
+The median Dice per level is 0.71 to 0.88, much higher than the means above. When the model works, it works well.
+7 of 69 cases score below 0.3 on average. sub-verse707 is almost zero (0.005), then sub-verse645 (0.10) and sub-verse757 (0.18).
+Every level has at least one case with Dice exactly 0.
+
+Those cases are what drags the mean down. I haven’t looked inside them, so the cause is a guess: the model may find the vertebrae but give them the wrong level label, for example calling L2 “L3”. Telling vertebrae apart needs wide context, and a 96³ patch at 2 mm sees only about 19 cm. This is also the concern Member 2 raised in his doc. To check, count which labels the model predicts in those failing cases. That would be a good start for Member 6’s failure analysis.
+
+One odd thing: the loss dropped at epoch 65
+
+Train loss fell from about 0.5 to 0.17, and validation loss from 0.93 to 0.19, within five epochs. Validation Dice did not improve (0.62 to 0.59). My explanation, not verified, is that the Dice part of the loss gives a perfect score on levels absent from a patch, and the model suddenly learned to stay silent on absent levels. So the lower loss does not mean better segmentation. Don’t read the loss as quality, and keep using Dice.

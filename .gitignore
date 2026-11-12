@@ -94,3 +94,7 @@ outputs/*
 !outputs/m2_preprocessing/
 !outputs/m2_preprocessing/*.csv
 !outputs/m2_preprocessing/*.json
+
+# Member 4 - training records (checkpoints *.pt stay ignored)
+!outputs/m4_training/
+!outputs/m4_training/**/train.log

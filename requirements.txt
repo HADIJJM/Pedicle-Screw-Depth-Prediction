@@ -8,3 +8,5 @@ pandas>=2.0,<3
 
 # Member 2 - Medical image preprocessing
 scipy>=1.11,<2
+# Member 4 - training config files
+pyyaml>=6,<7
