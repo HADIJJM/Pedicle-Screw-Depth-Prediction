@@ -1,0 +1,63 @@
+{
+  "config": {
+    "run_name": "baseline_96",
+    "train_manifest": "outputs/m2_preprocessing/train.csv",
+    "val_manifest": "outputs/m2_preprocessing/val.csv",
+    "output_root": "/content/drive/MyDrive/m4_runs",
+    "patch_size_zyx": [
+      96,
+      96,
+      96
+    ],
+    "batch_size": 1,
+    "patches_per_case": 12,
+    "num_workers": 0,
+    "validation_overlap": 0.25,
+    "channels": [
+      16,
+      32,
+      64,
+      128,
+      256
+    ],
+    "epochs": 100,
+    "learning_rate": 0.001,
+    "weight_decay": 1e-05,
+    "warmup_epochs": 2,
+    "min_lr": 1e-06,
+    "grad_clip_norm": 12.0,
+    "amp": true,
+    "val_every": 5,
+    "early_stop_patience": 0,
+    "seed": 42,
+    "device": "cuda",
+    "log_every": 20,
+    "max_train_batches": 0,
+    "max_val_cases": 0
+  },
+  "started_utc": "2026-11-12T07:58:52Z",
+  "git_commit": "d4eea18",
+  "preprocess_fingerprint": "72e39f20b4b0347c",
+  "preprocess_settings": {
+    "spacing_xyz_mm": [
+      2.0,
+      2.0,
+      2.0
+    ],
+    "hu_min": -300.0,
+    "hu_max": 1500.0,
+    "center_stride": 3,
+    "centers_per_class": 512,
+    "center_seed": 42
+  },
+  "train_cases": 50,
+  "val_cases": 69,
+  "train_patches_per_epoch": 600,
+  "val_patches": 3000,
+  "device": "cuda",
+  "amp_active": true,
+  "cuda_device": "Tesla T4",
+  "python": "3.13.16",
+  "torch": "2.14.1+cu130",
+  "command": "scripts/train_segmentation.py --run-name baseline_96 --val-every 5 --device cuda --output-root /content/drive/MyDrive/m4_runs"
+}

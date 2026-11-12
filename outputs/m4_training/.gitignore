@@ -1,0 +1,100 @@
+
+# ==========================================
+# Python
+# ==========================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ==========================================
+# Virtual environments
+# ==========================================
+.venv/
+venv/
+env/
+ENV/
+
+# ==========================================
+# IDE and operating system
+# ==========================================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# Raw medical datasets
+# Do not upload CT images or segmentation masks
+# ==========================================
+data/raw/
+data/interim/
+data/processed/
+
+*.nii
+*.nii.gz
+*.nrrd
+*.mha
+*.mhd
+*.dcm
+
+# ==========================================
+# Large models and training checkpoints
+# ==========================================
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.hdf5
+*.onnx
+
+# ==========================================
+# Temporary files and logs
+# ==========================================
+*.tmp
+*.log
+*.bak
+*.swp
+*.swo
+~$*
+
+# ==========================================
+# Outputs
+# Ignore all outputs by default
+# ==========================================
+outputs/*
+
+# ==========================================
+# Module 1 - Approved deliverables
+# Keep CSV and JSON reports
+# ==========================================
+!outputs/m1_inspection/
+!outputs/m1_inspection/*.csv
+!outputs/m1_inspection/*.json
+
+!outputs/m1_validation/
+!outputs/m1_validation/*.csv
+!outputs/m1_validation/*.json
+
+!outputs/m1_splits/
+!outputs/m1_splits/*.csv
+!outputs/m1_splits/*.json
+
+# ==========================================
+# Local configuration and secrets
+# ==========================================
+.env
+.env.*
+!.env.example
+
+# Member 2 - Preprocessing manifests
+!outputs/m2_preprocessing/
+!outputs/m2_preprocessing/*.csv
+!outputs/m2_preprocessing/*.json
+
+# Member 4 - training records (checkpoints *.pt stay ignored)
+!outputs/m4_training/
+!outputs/m4_training/**/train.log
