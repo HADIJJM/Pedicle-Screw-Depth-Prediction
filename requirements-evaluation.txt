@@ -1,0 +1,3 @@
+# Evaluation figures (nibabel, numpy and scipy come from requirements.txt).
+# scripts/predict_split.py also needs torch + monai from requirements-member3.txt.
+matplotlib>=3.7,<4

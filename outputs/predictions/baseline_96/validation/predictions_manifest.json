@@ -1,0 +1,1264 @@
+{
+  "run_name": "baseline_96",
+  "dataset_split": "validation",
+  "checkpoint": "/content/repo/best.pt",
+  "checkpoint_sha256": "461a2dcfe1363c819b1edde4b777c956b0d92e5e7a85a1e3b5f7518dcb41a088",
+  "epoch": 54,
+  "val_mean_dice": 0.6460362259069485,
+  "preprocess_fingerprint": "72e39f20b4b0347c",
+  "patch_size_zyx": [
+    96,
+    96,
+    96
+  ],
+  "overlap": 0.5,
+  "device": "cuda",
+  "pred_pattern": "{scan_id}_pred.nii.gz",
+  "created_utc": "2026-11-14T13:21:12Z",
+  "updated_utc": "2026-11-14T13:21:12Z",
+  "note": "inference functions (unchanged), batched by scripts/predict_split.py",
+  "cases": {
+    "sub-verse505": {
+      "patient_id": "sub-verse505",
+      "file": "sub-verse505_pred.nii.gz",
+      "aligned_with_ct": true,
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "seconds": 16.5,
+      "utc": "2026-11-14T13:21:29Z"
+    },
+    "sub-verse508_dir-ax": {
+      "patient_id": "sub-verse508",
+      "file": "sub-verse508_dir-ax_pred.nii.gz",
+      "aligned_with_ct": true,
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "seconds": 24.1,
+      "utc": "2026-11-14T13:21:53Z"
+    },
+    "sub-verse511_dir-ax": {
+      "patient_id": "sub-verse511",
+      "file": "sub-verse511_dir-ax_pred.nii.gz",
+      "aligned_with_ct": true,
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "seconds": 17.3,
+      "utc": "2026-11-14T13:22:10Z"
+    },
+    "sub-verse513": {
+      "patient_id": "sub-verse513",
+      "file": "sub-verse513_pred.nii.gz",
+      "aligned_with_ct": true,
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "seconds": 19.6,
+      "utc": "2026-11-14T13:22:30Z"
+    },
+    "sub-verse522": {
+      "patient_id": "sub-verse522",
+      "file": "sub-verse522_pred.nii.gz",
+      "aligned_with_ct": true,
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "seconds": 9.0,
+      "utc": "2026-11-14T13:22:39Z"
+    },
+    "sub-verse529": {
+      "patient_id": "sub-verse529",
+      "file": "sub-verse529_pred.nii.gz",
+      "aligned_with_ct": true,
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "seconds": 12.3,
+      "utc": "2026-11-14T13:22:51Z"
+    },
+    "sub-verse530": {
+      "patient_id": "sub-verse530",
+      "file": "sub-verse530_pred.nii.gz",
+      "aligned_with_ct": true,
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "seconds": 15.2,
+      "utc": "2026-11-14T13:23:06Z"
+    },
+    "sub-verse531": {
+      "patient_id": "sub-verse531",
+      "file": "sub-verse531_pred.nii.gz",
+      "aligned_with_ct": true,
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "seconds": 11.7,
+      "utc": "2026-11-14T13:23:18Z"
+    },
+    "sub-verse545_dir-ax": {
+      "patient_id": "sub-verse545",
+      "file": "sub-verse545_dir-ax_pred.nii.gz",
+      "aligned_with_ct": true,
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "seconds": 17.0,
+      "utc": "2026-11-14T13:23:35Z"
+    },
+    "sub-verse547": {
+      "patient_id": "sub-verse547",
+      "file": "sub-verse547_pred.nii.gz",
+      "aligned_with_ct": true,
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "seconds": 23.2,
+      "utc": "2026-11-14T13:23:58Z"
+    },
+    "sub-verse549": {
+      "patient_id": "sub-verse549",
+      "file": "sub-verse549_pred.nii.gz",
+      "aligned_with_ct": true,
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "seconds": 38.2,
+      "utc": "2026-11-14T13:24:36Z"
+    },
+    "sub-verse553": {
+      "patient_id": "sub-verse553",
+      "file": "sub-verse553_pred.nii.gz",
+      "aligned_with_ct": true,
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "seconds": 13.9,
+      "utc": "2026-11-14T13:24:50Z"
+    },
+    "sub-verse554": {
+      "patient_id": "sub-verse554",
+      "file": "sub-verse554_pred.nii.gz",
+      "aligned_with_ct": true,
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "seconds": 21.4,
+      "utc": "2026-11-14T13:25:12Z"
+    },
+    "sub-verse556_dir-ax": {
+      "patient_id": "sub-verse556",
+      "file": "sub-verse556_dir-ax_pred.nii.gz",
+      "aligned_with_ct": true,
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "seconds": 27.8,
+      "utc": "2026-11-14T13:25:39Z"
+    },
+    "sub-verse559": {
+      "patient_id": "sub-verse559",
+      "file": "sub-verse559_pred.nii.gz",
+      "aligned_with_ct": true,
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "seconds": 9.7,
+      "utc": "2026-11-14T13:25:49Z"
+    },
+    "sub-verse569": {
+      "patient_id": "sub-verse569",
+      "file": "sub-verse569_pred.nii.gz",
+      "aligned_with_ct": true,
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "seconds": 14.4,
+      "utc": "2026-11-14T13:26:04Z"
+    },
+    "sub-verse571": {
+      "patient_id": "sub-verse571",
+      "file": "sub-verse571_pred.nii.gz",
+      "aligned_with_ct": true,
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "seconds": 14.4,
+      "utc": "2026-11-14T13:26:18Z"
+    },
+    "sub-verse573": {
+      "patient_id": "sub-verse573",
+      "file": "sub-verse573_pred.nii.gz",
+      "aligned_with_ct": true,
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "seconds": 62.1,
+      "utc": "2026-11-14T13:27:20Z"
+    },
+    "sub-verse576": {
+      "patient_id": "sub-verse576",
+      "file": "sub-verse576_pred.nii.gz",
+      "aligned_with_ct": true,
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "seconds": 17.0,
+      "utc": "2026-11-14T13:27:37Z"
+    },
+    "sub-verse580": {
+      "patient_id": "sub-verse580",
+      "file": "sub-verse580_pred.nii.gz",
+      "aligned_with_ct": true,
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "seconds": 13.3,
+      "utc": "2026-11-14T13:27:51Z"
+    },
+    "sub-verse585": {
+      "patient_id": "sub-verse585",
+      "file": "sub-verse585_pred.nii.gz",
+      "aligned_with_ct": true,
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "seconds": 11.3,
+      "utc": "2026-11-14T13:28:02Z"
+    },
+    "sub-verse592_dir-ax": {
+      "patient_id": "sub-verse592",
+      "file": "sub-verse592_dir-ax_pred.nii.gz",
+      "aligned_with_ct": true,
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "seconds": 12.5,
+      "utc": "2026-11-14T13:28:14Z"
+    },
+    "sub-verse598": {
+      "patient_id": "sub-verse598",
+      "file": "sub-verse598_pred.nii.gz",
+      "aligned_with_ct": true,
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "seconds": 28.9,
+      "utc": "2026-11-14T13:28:43Z"
+    },
+    "sub-verse600_dir-ax": {
+      "patient_id": "sub-verse600",
+      "file": "sub-verse600_dir-ax_pred.nii.gz",
+      "aligned_with_ct": true,
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "seconds": 11.9,
+      "utc": "2026-11-14T13:28:55Z"
+    },
+    "sub-verse601": {
+      "patient_id": "sub-verse601",
+      "file": "sub-verse601_pred.nii.gz",
+      "aligned_with_ct": true,
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "seconds": 19.2,
+      "utc": "2026-11-14T13:29:14Z"
+    },
+    "sub-verse603": {
+      "patient_id": "sub-verse603",
+      "file": "sub-verse603_pred.nii.gz",
+      "aligned_with_ct": true,
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "seconds": 17.0,
+      "utc": "2026-11-14T13:29:31Z"
+    },
+    "sub-verse606": {
+      "patient_id": "sub-verse606",
+      "file": "sub-verse606_pred.nii.gz",
+      "aligned_with_ct": true,
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "seconds": 26.5,
+      "utc": "2026-11-14T13:29:58Z"
+    },
+    "sub-verse609": {
+      "patient_id": "sub-verse609",
+      "file": "sub-verse609_pred.nii.gz",
+      "aligned_with_ct": true,
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "seconds": 11.6,
+      "utc": "2026-11-14T13:30:09Z"
+    },
+    "sub-verse612": {
+      "patient_id": "sub-verse612",
+      "file": "sub-verse612_pred.nii.gz",
+      "aligned_with_ct": true,
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "seconds": 8.8,
+      "utc": "2026-11-14T13:30:18Z"
+    },
+    "sub-verse614": {
+      "patient_id": "sub-verse614",
+      "file": "sub-verse614_pred.nii.gz",
+      "aligned_with_ct": true,
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "seconds": 12.2,
+      "utc": "2026-11-14T13:30:31Z"
+    },
+    "sub-verse615": {
+      "patient_id": "sub-verse615",
+      "file": "sub-verse615_pred.nii.gz",
+      "aligned_with_ct": true,
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "seconds": 16.2,
+      "utc": "2026-11-14T13:30:47Z"
+    },
+    "sub-verse618": {
+      "patient_id": "sub-verse618",
+      "file": "sub-verse618_pred.nii.gz",
+      "aligned_with_ct": true,
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "seconds": 25.6,
+      "utc": "2026-11-14T13:31:12Z"
+    },
+    "sub-verse621": {
+      "patient_id": "sub-verse621",
+      "file": "sub-verse621_pred.nii.gz",
+      "aligned_with_ct": true,
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "seconds": 13.6,
+      "utc": "2026-11-14T13:31:26Z"
+    },
+    "sub-verse623": {
+      "patient_id": "sub-verse623",
+      "file": "sub-verse623_pred.nii.gz",
+      "aligned_with_ct": true,
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "seconds": 11.9,
+      "utc": "2026-11-14T13:31:38Z"
+    },
+    "sub-verse627": {
+      "patient_id": "sub-verse627",
+      "file": "sub-verse627_pred.nii.gz",
+      "aligned_with_ct": true,
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "seconds": 14.0,
+      "utc": "2026-11-14T13:31:52Z"
+    },
+    "sub-verse635": {
+      "patient_id": "sub-verse635",
+      "file": "sub-verse635_pred.nii.gz",
+      "aligned_with_ct": true,
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "seconds": 12.1,
+      "utc": "2026-11-14T13:32:04Z"
+    },
+    "sub-verse636": {
+      "patient_id": "sub-verse636",
+      "file": "sub-verse636_pred.nii.gz",
+      "aligned_with_ct": true,
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "seconds": 16.5,
+      "utc": "2026-11-14T13:32:20Z"
+    },
+    "sub-verse640": {
+      "patient_id": "sub-verse640",
+      "file": "sub-verse640_pred.nii.gz",
+      "aligned_with_ct": true,
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "seconds": 11.2,
+      "utc": "2026-11-14T13:32:32Z"
+    },
+    "sub-verse644": {
+      "patient_id": "sub-verse644",
+      "file": "sub-verse644_pred.nii.gz",
+      "aligned_with_ct": true,
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "seconds": 7.9,
+      "utc": "2026-11-14T13:32:40Z"
+    },
+    "sub-verse645": {
+      "patient_id": "sub-verse645",
+      "file": "sub-verse645_pred.nii.gz",
+      "aligned_with_ct": true,
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "seconds": 7.6,
+      "utc": "2026-11-14T13:32:47Z"
+    },
+    "sub-verse701": {
+      "patient_id": "sub-verse701",
+      "file": "sub-verse701_pred.nii.gz",
+      "aligned_with_ct": true,
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "seconds": 5.7,
+      "utc": "2026-11-14T13:32:53Z"
+    },
+    "sub-verse703": {
+      "patient_id": "sub-verse703",
+      "file": "sub-verse703_pred.nii.gz",
+      "aligned_with_ct": true,
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "seconds": 11.9,
+      "utc": "2026-11-14T13:33:05Z"
+    },
+    "sub-verse705": {
+      "patient_id": "sub-verse705",
+      "file": "sub-verse705_pred.nii.gz",
+      "aligned_with_ct": true,
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "seconds": 16.6,
+      "utc": "2026-11-14T13:33:21Z"
+    },
+    "sub-verse707": {
+      "patient_id": "sub-verse707",
+      "file": "sub-verse707_pred.nii.gz",
+      "aligned_with_ct": true,
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "seconds": 13.4,
+      "utc": "2026-11-14T13:33:35Z"
+    },
+    "sub-verse709": {
+      "patient_id": "sub-verse709",
+      "file": "sub-verse709_pred.nii.gz",
+      "aligned_with_ct": true,
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "seconds": 6.1,
+      "utc": "2026-11-14T13:33:41Z"
+    },
+    "sub-verse711": {
+      "patient_id": "sub-verse711",
+      "file": "sub-verse711_pred.nii.gz",
+      "aligned_with_ct": true,
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "seconds": 6.4,
+      "utc": "2026-11-14T13:33:47Z"
+    },
+    "sub-verse713": {
+      "patient_id": "sub-verse713",
+      "file": "sub-verse713_pred.nii.gz",
+      "aligned_with_ct": true,
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "seconds": 4.5,
+      "utc": "2026-11-14T13:33:52Z"
+    },
+    "sub-verse715": {
+      "patient_id": "sub-verse715",
+      "file": "sub-verse715_pred.nii.gz",
+      "aligned_with_ct": true,
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "seconds": 14.5,
+      "utc": "2026-11-14T13:34:06Z"
+    },
+    "sub-verse717": {
+      "patient_id": "sub-verse717",
+      "file": "sub-verse717_pred.nii.gz",
+      "aligned_with_ct": true,
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "seconds": 7.3,
+      "utc": "2026-11-14T13:34:14Z"
+    },
+    "sub-verse719": {
+      "patient_id": "sub-verse719",
+      "file": "sub-verse719_pred.nii.gz",
+      "aligned_with_ct": true,
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "seconds": 4.4,
+      "utc": "2026-11-14T13:34:18Z"
+    },
+    "sub-verse750_dir-ax": {
+      "patient_id": "sub-verse750",
+      "file": "sub-verse750_dir-ax_pred.nii.gz",
+      "aligned_with_ct": true,
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "seconds": 22.7,
+      "utc": "2026-11-14T13:34:41Z"
+    },
+    "sub-verse753": {
+      "patient_id": "sub-verse753",
+      "file": "sub-verse753_pred.nii.gz",
+      "aligned_with_ct": true,
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "seconds": 4.1,
+      "utc": "2026-11-14T13:34:45Z"
+    },
+    "sub-verse755": {
+      "patient_id": "sub-verse755",
+      "file": "sub-verse755_pred.nii.gz",
+      "aligned_with_ct": true,
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "seconds": 8.2,
+      "utc": "2026-11-14T13:34:53Z"
+    },
+    "sub-verse757": {
+      "patient_id": "sub-verse757",
+      "file": "sub-verse757_pred.nii.gz",
+      "aligned_with_ct": true,
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "seconds": 3.8,
+      "utc": "2026-11-14T13:34:57Z"
+    },
+    "sub-verse759": {
+      "patient_id": "sub-verse759",
+      "file": "sub-verse759_pred.nii.gz",
+      "aligned_with_ct": true,
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "seconds": 14.6,
+      "utc": "2026-11-14T13:35:11Z"
+    },
+    "sub-verse761": {
+      "patient_id": "sub-verse761",
+      "file": "sub-verse761_pred.nii.gz",
+      "aligned_with_ct": true,
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "seconds": 8.5,
+      "utc": "2026-11-14T13:35:20Z"
+    },
+    "sub-verse763": {
+      "patient_id": "sub-verse763",
+      "file": "sub-verse763_pred.nii.gz",
+      "aligned_with_ct": true,
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "seconds": 5.2,
+      "utc": "2026-11-14T13:35:25Z"
+    },
+    "sub-verse765": {
+      "patient_id": "sub-verse765",
+      "file": "sub-verse765_pred.nii.gz",
+      "aligned_with_ct": true,
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "seconds": 14.8,
+      "utc": "2026-11-14T13:35:40Z"
+    },
+    "sub-verse767": {
+      "patient_id": "sub-verse767",
+      "file": "sub-verse767_pred.nii.gz",
+      "aligned_with_ct": true,
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "seconds": 9.2,
+      "utc": "2026-11-14T13:35:49Z"
+    },
+    "sub-verse769": {
+      "patient_id": "sub-verse769",
+      "file": "sub-verse769_pred.nii.gz",
+      "aligned_with_ct": true,
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "seconds": 4.8,
+      "utc": "2026-11-14T13:35:54Z"
+    },
+    "sub-verse802": {
+      "patient_id": "sub-verse802",
+      "file": "sub-verse802_pred.nii.gz",
+      "aligned_with_ct": true,
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "seconds": 18.7,
+      "utc": "2026-11-14T13:36:13Z"
+    },
+    "sub-verse805": {
+      "patient_id": "sub-verse805",
+      "file": "sub-verse805_pred.nii.gz",
+      "aligned_with_ct": true,
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "seconds": 13.2,
+      "utc": "2026-11-14T13:36:26Z"
+    },
+    "sub-verse806": {
+      "patient_id": "sub-verse806",
+      "file": "sub-verse806_pred.nii.gz",
+      "aligned_with_ct": true,
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "seconds": 6.9,
+      "utc": "2026-11-14T13:36:33Z"
+    },
+    "sub-verse814": {
+      "patient_id": "sub-verse814",
+      "file": "sub-verse814_pred.nii.gz",
+      "aligned_with_ct": true,
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "seconds": 12.4,
+      "utc": "2026-11-14T13:36:45Z"
+    },
+    "sub-verse815": {
+      "patient_id": "sub-verse815",
+      "file": "sub-verse815_pred.nii.gz",
+      "aligned_with_ct": true,
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "seconds": 9.8,
+      "utc": "2026-11-14T13:36:55Z"
+    },
+    "sub-verse816": {
+      "patient_id": "sub-verse816",
+      "file": "sub-verse816_pred.nii.gz",
+      "aligned_with_ct": true,
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "seconds": 10.2,
+      "utc": "2026-11-14T13:37:05Z"
+    },
+    "sub-verse817": {
+      "patient_id": "sub-verse817",
+      "file": "sub-verse817_pred.nii.gz",
+      "aligned_with_ct": true,
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "seconds": 17.9,
+      "utc": "2026-11-14T13:37:23Z"
+    },
+    "sub-verse821": {
+      "patient_id": "sub-verse821",
+      "file": "sub-verse821_pred.nii.gz",
+      "aligned_with_ct": true,
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "seconds": 13.9,
+      "utc": "2026-11-14T13:37:37Z"
+    },
+    "sub-verse826": {
+      "patient_id": "sub-verse826",
+      "file": "sub-verse826_pred.nii.gz",
+      "aligned_with_ct": true,
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "seconds": 15.2,
+      "utc": "2026-11-14T13:37:52Z"
+    }
+  }
+}
