@@ -99,3 +99,11 @@ outputs/*
 !outputs/m4_training/
 !outputs/m4_training/**/train.log
 checkpoints/
+# Segmentation evaluation - tables, reports, summary plots and the test lock are kept;
+# per-case figures show CT slices and per-case caches are regenerated, so they stay out
+!outputs/evaluation/
+outputs/evaluation/**/figures/cases/
+outputs/evaluation/**/cases/
+
+# Batch predictions: provenance JSON only (*.nii.gz is ignored above)
+!outputs/predictions/
